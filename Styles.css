@@ -1,0 +1,11 @@
+:root {
+  --bg: #fff; --fg: #111; --bg2: #eee;
+}
+[data-theme="dark"] {
+  --bg: #111; --fg: #eee; --bg2: #222;
+}
+body { margin:0;padding:1rem; background:var(--bg);color:var(--fg);font-family:sans-serif;}
+.container { max-width:800px;margin:auto; background:var(--bg2);padding:1rem;border-radius:8px;}
+button, select, input {margin:.25rem;}
+input[type=number] {width:60px;}
+hr {margin:1rem 0;}
