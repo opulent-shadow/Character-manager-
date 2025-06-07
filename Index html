@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Character Stat Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <button id="theme-toggle">Toggle Dark Mode</button>
+  <div class="container">
+    <div>
+      <h2>Folders</h2>
+      <select id="folder-select"></select>
+      <button onclick="createFolder()">New Folder</button>
+      <button onclick="deleteFolder()">Delete Folder</button>
+    </div>
+    <hr />
+    <div>
+      <h2>Characters</h2>
+      <select id="char-select"></select>
+      <button onclick="createChar()">New Character</button>
+      <button onclick="deleteChar()">Delete Character</button>
+    </div>
+    <hr />
+    <div id="char-edit"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
